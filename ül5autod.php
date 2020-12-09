@@ -1,4 +1,4 @@
-<!--Ülesanne 5 Autod, Martin Kotkamäe, 08.12.2020-->
+<!--Ülesanne 5 autod, Martin Kotkamäe, 08.12.2020-->
 <?php
 $autod = array("Subaru","BMW","Acura","Mercedes-Benz","Lexus","GMC","Volvo","Toyota","Volkswagen","Volkswagen","GMC","Jeep","Saab","Hyundai","Subaru","Mercedes-Benz",
     "Honda","Kia","Mercedes-Benz","Chevrolet","Chevrolet","Porsche","Buick","Dodge","GMC","Dodge","Nissan","Dodge","Jaguar","Ford","Honda","Toyota","Jeep",

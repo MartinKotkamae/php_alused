@@ -1,3 +1,4 @@
+<!--Ülesanne 5 palgad, Martin Kotkamäe, 08.12.2020-->
 <?php
 $palgad = array(1220,1213,1295,1312,1298,1354,1296,1286,1292,1327,1369,1455);
 $palgadkok = 0;

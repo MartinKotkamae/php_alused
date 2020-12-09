@@ -1,3 +1,4 @@
+<!--Ülesanne 5 firmad, Martin Kotkamäe, 08.12.2020-->
 <!doctype html>
 <html>
 <head>
@@ -25,7 +26,7 @@ echo "<br>";
 if(!empty($_GET["eemaldus"])) {
     $eemalda = $_GET["eemaldus"];
     if ($eemalda != "") {
-        unset($firmad[$eemalda]);
+        $firmad = \array_diff($firmad, [$eemalda]);
         foreach ($firmad as $firma) {
             echo $firma,"<br>";
         }
