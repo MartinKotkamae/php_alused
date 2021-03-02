@@ -29,35 +29,24 @@ for ($nr = 10; $nr >= 1; $nr--) {
     echo $nr."<br>";
 }
 ?>
-
+<!--Ülesanne 6.6, Martin Kotkamäe, 02.03.2021-->
 <?php
-/**
-
-for ($nr = 1; $nr <= 100; $nr++) {
-    echo $nr . '<br>';
+for ($nr = 3; $nr <= 100; $nr += 3) {
+    echo $nr."<br>";
 }
+?>
+<!--Ülesanne 6.7, Martin Kotkamäe, 09.12.2021-->
+<?php
+$poiss = array(1=> 'Tali', 'Tuli', 'Tilo');
+$tudruk = array(1=> 'Kristin','Kriev','Kriss');
 
-$nimed = array('mari', 'kati', 'juhan', 'miku', 'uku');
-for($nr=0;$nr<count($nimed);$nr++){
-    echo $nimed[$nr].'<br>';
-}
+$kp = count($poiss);
+$kt = count($tudruk);
 
-$arv = 1;
-while($arv <=10){
-    echo $arv.'<br>';
-    $arv++;
-}
-$number = 1;
-do{
-    echo $number.'<br>';
-    $number++;
-} while($number <=10);
-
-for($rida=1; $rida<=5; $rida++){
-    for($veerg=1; $veerg<=5; $veerg++){
-        echo '*';
+for($nr=1;$nr<=$kp;$nr++){
+    if($nr<$kp-2){
+        continue;
     }
-    echo '*<br>';
+    echo $poiss[$nr].' '.$tudruk[$nr].'<br>';
 }
-**/
 ?>
