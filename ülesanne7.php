@@ -1,4 +1,4 @@
-<!--Ülesanne 7.Tervitus, Martin Kotkamäe, 09.12.2021-->
+<!--Ülesanne 7.Tervitus, Martin Kotkamäe, 02.03.2021-->
 <?php
 function tervitus(){
     return "Tere päiksekesekene!";
@@ -6,7 +6,7 @@ function tervitus(){
 echo tervitus();
 echo "<br>";
 ?>
-<!--Ülesanne 7.Liitu Uudiskirjaga, Martin Kotkamäe, 09.12.2021-->
+<!--Ülesanne 7.Liitu Uudiskirjaga, Martin Kotkamäe, 02.03.2021-->
 <?php
 function uudiskirivorm(){
     ?>
@@ -19,7 +19,7 @@ function uudiskirivorm(){
 echo uudiskirivorm();
 echo"<br>";
 ?>
-<!--Ülesanne 7.Kasutajanimi ja email, Martin Kotkamäe, 09.12.2021-->
+<!--Ülesanne 7.Kasutajanimi ja email, Martin Kotkamäe, 02.03.2021-->
 <?php
 function vaikeseks($kasutaja = "Martin Kotkamae"){
     return strtolower($kasutaja);
@@ -40,7 +40,7 @@ function kood($pikkus){
 echo kood(7);
 echo "<br>";
 ?>
-<!--Ülesanne 7.Arvud, Martin Kotkamäe, 09.12.2021-->
+<!--Ülesanne 7.Arvud, Martin Kotkamäe, 02.03.2021-->
 <?php
 function arvuvahe($samm){
     $kasutajaarv1 = 2;
@@ -55,7 +55,7 @@ function arvuvahe($samm){
 echo arvuvahe(2);
 echo "<br>";
 ?>
-<!--Ülesanne 7.Ristküliku pindala, Martin Kotkamäe, 09.12.2021-->
+<!--Ülesanne 7.Ristküliku pindala, Martin Kotkamäe, 02.03.2021-->
 <?php
 function rkpindala($laius, $pikkus){
     $pindala = $laius * $pikkus;
@@ -64,7 +64,7 @@ function rkpindala($laius, $pikkus){
 echo "Pindala : ".rkpindala(2, 3);
 echo"<br>";
 ?>
-<!--Ülesanne 7.Isikukood, Martin Kotkamäe, 09.12.2021-->
+<!--Ülesanne 7.Isikukood, Martin Kotkamäe, 02.03.2021-->
 <?php
 function isikpikkus($isikukood){
     if (strlen ($isikukood) == 11) {
@@ -94,7 +94,7 @@ function sugusunn($isikukood) {
 echo sugusunn(50005186520);
 echo "<br>";
 ?>
-<!--Ülesanne 7.Head mötted, Martin Kotkamäe, 09.12.2021-->
+<!--Ülesanne 7.Head mötted, Martin Kotkamäe, 02.03.2021-->
 <?php
 function lause(){
     $alus = array("Poiss","Tüdruk","Kass");
