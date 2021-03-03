@@ -100,11 +100,11 @@ function lause(){
     $alus = array("Poiss","Tüdruk","Kass");
     $oeldis = array("jookseb", "huppab", "magab");
     $sihitis = array("rannas", "metsas", "linnas");
-    echo $alus[rand(1, 3)];
+    echo $alus[rand(0, 2)];
     echo " ";
-    echo $oeldis[rand(1, 3)];
+    echo $oeldis[rand(0, 2)];
     echo " ";
-    echo $sihitis[rand(1, 3)];
+    echo $sihitis[rand(0, 2)];
 }
 
 echo lause();
